@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="container-small">
+            <section class="weather-app col align-center">
+                <h1>My Weather App</h1>
+                <div class="form">
+                    <input id="search-txt" type="text" placeholder="Введите название города">
+                    <button id="weather-btn">Узнать погоду</button>
+                </div>
+                <h4>Город</h4>
+                <div class="main-wrapp">
+                    <div class="weather-content row addon-des">
+                        <h3 id="weather-temp">-10</h3>
+                        <div class="weather-img">
+                            <img id="weather-ico" src="https://openweathermap.org/img/wn/50d.png" alt="WEATHERIMG">
+                        </div>
+                    </div>
+                    <div class="weather-addons">
+                        <div class="addoned-box addon-des" id="weather-addons--descMin">
+                            Ясно
+                        </div>
+                        <div class="addoned-box row">
+                            <div class="addon-des w-100 row justify-center">
+                                <div class="row align-center justify-between w-55">
+                                    <div class="weather-img--small">
+                                        <img id="weather-ico" src="humb.png" alt="WEATHERIMG">
+                                    </div>
+                                    <div id="weather-humb">45%</div>
+                                </div>
+                            </div>
+                            <div class="addon-des w-100 row justify-center">
+                                <div class="row align-center justify-between w-55">
+                                    <div class="weather-img--small">
+                                        <img id="weather-ico" src="pressure.png" alt="WEATHERIMG">
+                                    </div>
+                                    <div id="weather-pressure">754 <br><span style="font-size: 1.1rem">мм рт. ст.</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+        </section>
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
